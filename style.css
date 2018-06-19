@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    background-color:#ffffff;
+    color: #515151;
+}
+h1, h2, h3, h4{
+    margin:0;
+}
+header{
+    background-color: #1c3643;
+    color: white;
+}
+.contenedor{
+    position: relative;
+    max-width: 1085px;
+    margin: auto;
+}
+figure.logo{
+    display: inline-block;
+    margin:10px 15px;
+}
+.menu{
+    display: inline;
+    position: absolute;
+    right: 20px;
+}
+.menu li{
+    display: inline;
+    margin-left: 10px;
+    padding-right: 10px;
+    
+}
+.menu li:not(:last-child){
+    border-right: 1px solid white;
+}
+
+.busqueda{
+    padding: 5px;
+    height: 40px;
+}
+.busqueda input{
+    position: absolute;
+    right: 35px;
+    line-height: 30px;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.busqueda i{
+    position: absolute;
+    right: 0;
+    line-height: 25px;
+    padding: 3px 7px;
+    background-color: #1c3643;
+    border-radius: 5px;
+}
+.busqueda a{
+    text-decoration: none;
+    color: white;
+}
+.post-portada, .busqueda{
+    background: #efefef;
+}
+.image-bg{
+    background-image: url("http://via.placeholder.com/500x1080");
+}
+.blog-1{
+    position: absolute;
+    max-width:50%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px 30px;
+    top:260px;
+    left:30px;
+
+}
+.contenedor.image-bg{
+    height: 500px;
+}
+.blog-1 .autor-fecha{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.blog-1 h1{
+    font-size: 31px;
+    padding-bottom: 15px;
+}
+.blog-1 .autor-fecha i{
+    padding-right: 5px;
+    font-size: 30px;
+    color:#515151;
+}
+.nombre-autor{
+    display: inline;
+}
+.blog-posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:25px;
+}
+.blog-posts article{
+    width: 32%;
+    margin-bottom: 20px;
+}
+.blog-posts img{
+    width:100%;
+}
+.blog-posts h2{
+    margin: 20px 0;
+}
+.blog-posts .autorFecha{
+    display: flex;
+    justify-content: space-between;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.pagination li{
+    display: inline;
+    padding:10px 15px;
+    margin:0 5px;
+}
+.pagination li:not(:nth-child(-n+2)){
+    background-color: #eaeaea;
+}
